@@ -5,7 +5,7 @@
   --primary: ;
   --secondary: #F2F230;
   color-scheme: dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #ffffffde;
   background-color: #23262E;
 
   font-synthesis: none;
@@ -25,10 +25,12 @@
 
 a {
   text-decoration: none;
+  color: #f9f9f9;
+  
 }
 
 a:hover {
-  color: white;
+  color: #747bff;
 }
 
 a:focus {
@@ -129,7 +131,7 @@ a:visited {
   color: rgba(255, 255, 255, 0.571);
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
     color: #213547;
     background-color: #ffffff;
