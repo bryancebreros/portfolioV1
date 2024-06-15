@@ -1,7 +1,6 @@
-import { useContext } from "react";
-import LanguageContext from "../../context/LanguageContext";
+import { useContext } from "react"
+import LanguageContext from "../../context/LanguageContext"
 import ExternalLink from "../../components/misc/logos/ExternalLink"
-import Wheein from "../../wheein.jpg"
 import PhonePoke from "../../assets/images/pokefinder-phone.jpg"
 import PhoneCoffee from "../../assets/images/coffeeshops-phone.jpg"
 import PhoneKflix from "../../assets/images/kflix-phone.jpg"
@@ -37,33 +36,38 @@ function Projects() {
       <div className="images-container">
       
         <article className="project-item pokefinder" data-aos="fade-right" data-aos-once="true" >
-          
-          <div className="project-info">
-            <h3 className="project-title"><a href="https://pokefinder-ochre.vercel.app/" target="_blank" rel="noopener noreferrer">Pokefinder <ExternalLink /></a></h3>
-            <p class="item_description">{texts.projectDesc}</p>
-          </div>
+          <a href="https://pokefinder-ochre.vercel.app/" target="_blank" rel="noopener noreferrer">
+            <div className="project-info">
+              
+              <h3 className="project-title">Pokefinder</h3>
+              <p class="item_description">{texts.projectDesc}</p>
+            </div>
+          </a>
         </article>
         
         
         
       </div>
       <div className="images-container">
-        <article className="project-item kflix" data-aos="fade-left" data-aos-once="true" >
-          
+        <article className="project-item kflix" data-aos="fade-left" data-aos-once="true">
+        <a href="https://kflix-delta.vercel.app/" target="_blank" rel="noopener noreferrer">
           <div className="project-info">
-            <h3 className="project-title"><a href="https://kflix-delta.vercel.app/" target="_blank" rel="noopener noreferrer">K-FLIX <ExternalLink /></a></h3>
+            <h3 className="project-title">K-FLIX</h3>
             <p class="item_description">{texts.projectDesc2}</p>
           </div>
+        </a>
         </article>
+        
       </div>
 
       <div className="images-container">
         <article className="project-item coffee" data-aos="fade-right" data-aos-once="true">
-          
+        <a href="https://coffee-shops-rho.vercel.app/" target="_blank" rel="noopener noreferrer"> 
           <div className="project-info">
-            <h3 className="project-title"><a href="https://coffee-shops-rho.vercel.app/" target="_blank" rel="noopener noreferrer">Coffeeshops <ExternalLink /></a></h3>
+            <h3 className="project-title">Coffeeshops</h3>
             <p class="item_description">{texts.projectDesc3}</p>
           </div>
+        </a>
         </article>
       </div>
     </section>

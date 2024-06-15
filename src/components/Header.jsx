@@ -39,7 +39,7 @@ function Header() {
           </a>
         </div>
         <div className='lever'>
-          <span>{texts.lang}</span>
+          <span style={{fontSize: '44px'}}>{texts.lang}</span>
           <div className="switch" data-isOn={isOn} onClick={toggleSwitch}>
             
             <motion.div className="handle" layout transition={spring} />

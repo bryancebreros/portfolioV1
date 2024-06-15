@@ -3,7 +3,7 @@ const LanguageContext = createContext();
 const initialLanguage = "en";
 const translations = {
     en: {
-        lang: "🇺🇸",
+        lang: "EN",
         nav1: "About",
         nav2: "Projects",
         nav3: "Contact",
@@ -23,7 +23,7 @@ const translations = {
 
     },
     es: {
-        lang: "🇲🇽",
+        lang: "ES",
         nav1: "Sobre Mí",
         nav2: "Proyectos",
         nav3: "Contacto",
@@ -35,7 +35,7 @@ const translations = {
         aboutP3: "En mis tiempos libres compito en torneos de Smash Bros, actualmente soy considerado uno de los 15 mejores jugadores de mi región.",
         aboutT: "Tecnologías",
         projectsTitle: "Proyectos Destacados",
-        projectDesc: "Aplicación web conectada con la PokeAPI, muestra información de cada Pokémon de diferentes generaciones.",
+        projectDesc: "Aplicación web conectada con PokeAPI, muestra información de cada Pokémon de diferentes generaciones.",
         projectDesc2: "Clon de Netflix, permite visualizar videos de pop coreano utilizando la API de YouTube.",
         projectDesc3: "Utilizando la localización actual del usuario, encuentra cafeterías cercanas y muestra su información.",
         contactTitle: "Contacto",
